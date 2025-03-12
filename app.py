@@ -117,4 +117,6 @@ if st.sidebar.button("Reset Library Data"):
     st.session_state.library = []
     save_library([])
     st.warning("Library data reset!")
-
+# Footer
+st.markdown("---")
+st.markdown("🚀 Made with ❤ by Sikandar Tahir")  
